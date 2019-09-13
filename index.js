@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.difference=function(r){var e=Array.prototype.slice.call(arguments,1);return Array.isArray(r)&&e.every(Array.isArray)?r.filter(function(r){return e.every(function(e){return-1===e.indexOf(r)})}):[]};
